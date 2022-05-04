@@ -26,7 +26,7 @@ public class SameOrNah {
 
     public static void compareWords (String[] words) {
 
-        if (words[0].equals(words[1])) {
+        if (words[0].equalsIgnoreCase(words[1])) {
 
             System.out.println("The words are the same.");
 
